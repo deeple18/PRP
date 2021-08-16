@@ -1,0 +1,16 @@
+import java.util.*;
+
+public class act9 {
+
+    
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        int x;
+        System.out.println("Enter :");
+        x=sc.nextInt();
+        int a=x*80/100;
+        int valid=a*45/100;
+        System.out.println("Valid candidate:"+valid);
+    }
+    
+}

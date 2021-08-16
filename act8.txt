@@ -1,0 +1,15 @@
+import java.util.*;
+public class act8 {
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        System.out.println("Enter:");
+        int x,y;
+        x=sc.nextInt();
+        y=sc.nextInt();
+        float ans=(float)x/(float)y;
+        float res=ans*(float)18/(float)5;
+        System.out.println("Speed of two train :"+(int)res+5);
+        
+    }
+    
+}

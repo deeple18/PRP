@@ -1,0 +1,21 @@
+import java.util.*;
+import java.lang.*;
+
+public class act5 {
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        int arr[]=new int[10];
+        for(int i=0;i<10;i++)
+        {
+            arr[i]=sc.nextInt();
+        }
+        int sum=0;
+        for(int i=0;i<10;i++)
+        {
+            sum=sum+arr[i];
+        }
+        float avg=(float)sum/10;
+        System.out.println("average of "+sum+" number is "+avg);
+    }
+    
+}

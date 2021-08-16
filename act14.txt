@@ -1,0 +1,21 @@
+import java.util.*;
+import java.lang.*;
+public class act14 {
+
+    public static void main(String[] args) {
+           Scanner sc= new Scanner(System.in);
+           int n1=91-43;
+           int n2=183-91;
+           int n3=183-43;
+           int st=n1<n2?(n1<n3?n1:n3):(n2<n3?n2:n3);
+           int hcf;
+           for(hcf=st;hcf>=1;hcf--)
+           {
+               if(n1%hcf==0 && n2%hcf==0 && n3%hcf==0)
+               {
+                   break;
+               }
+           }
+           System.out.println(" Greatest no :"+hcf);
+    }
+}

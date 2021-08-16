@@ -1,0 +1,9 @@
+
+public class act11 {
+    public static void main(String[] args) {
+        int rh=6,rw=32,kh=5,kw=40;
+        float onehour=(rw/rh)+(kw+kh),work=110/(onehour);
+        System.out.println("Time taken to complete :"+work+"hrs");
+    }
+    
+}
